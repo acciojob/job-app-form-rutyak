@@ -8,26 +8,26 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <form action = ""  method = "post">
+    <form  method = "post">
 	<div>
-		<label for = "name" >Name*</label><br>
-		<input type = "name" id="#name" required>
+		<label for = "name">Name*</label><br>
+		<input type = "name" id="name" name="name" required>
 	</div>
 		
     <div>
-		<label for = "email" id="#email">Email*</label><br>
-		<input type = "email" id="#email" required>
+		<label for = "email">Email*</label><br>
+		<input type = "email" id="email" name="email" required>
 	</div>
 
     <div>
 		<label for = "gender" >Gender*</label><br>
-		<input type = "radio" name= "gender" required>Male<br>
-		<input type = "radio" name= "gender" required>Female
+		<input type = "radio" name= "gender" value="Male" required>Male<br>
+		<input type = "radio" name= "gender" value="Female" required>Female
 	</div>
 
 	<div>
 		<label for = "Laptop Brands">Laptop Brands</label><br>
-		<select id="#laptop" name="#laptop">
+		<select id="laptop" name="laptop">
 			<option value="Apple">Apple</option>
             <option value="Asus">Asus</option>
             <option value="HP">HP</option>
@@ -36,17 +36,17 @@
 	</div>
 	<div>
 		<label for = "age" >Age*</label><br>
-		<input type = "number" id="#age" required>
+		<input type = "number" id="age" name="age" required>
 	</div>
 
 	<div>
 		<label for = "dob" >DOB*</label><br>
-		<input type = "date" id="#dob" required>
+		<input type = "date" id="dob" name="dob" required>
 	</div>
 
 	<div>
-		<label for = "password" id="#password">Password*</label><br>
-		<input type = "password" id="#password" required>
+		<label for = "password">Password*</label><br>
+		<input type = "password" id="password" name="password" required>
 	</div>
 
 	<div>
@@ -57,7 +57,7 @@
 		<input type = "url" id = "portfolio">
 	</div>
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
